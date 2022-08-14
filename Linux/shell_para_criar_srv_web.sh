@@ -26,7 +26,7 @@ echo "Descompactando..."
 unzip main.zip
 
 echo "Copiando arquivos..."
-cd linux-site-dio
-cp -R linux-site-dio-main /var/www/html
+cd linux-site-dio-main
+cp -R * /var/www/html
 
 echo "Finalizado!"
