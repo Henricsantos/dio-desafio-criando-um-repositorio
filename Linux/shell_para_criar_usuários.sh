@@ -5,8 +5,14 @@
 ###################################################
 echo "Criando diretorios..."
 
-mkdir publico, adm, ven, sec 
+mkdir publico
+mkdir adm
+mkdir ven
+mkdir sec
 
+groupadd GRP_ADM
+groupadd GRP_VEN
+groupadd GRP_SEC
 
 chown root:GRP_ADM /adm
 chown root:GRP_VEN /sec
