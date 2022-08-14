@@ -7,6 +7,7 @@ echo "Criando diretorios..."
 
 mkdir publico, adm, ven, sec 
 
+
 chown root:GRP_ADM /adm
 chown root:GRP_VEN /sec
 chown root:GRP_SEC /sec
