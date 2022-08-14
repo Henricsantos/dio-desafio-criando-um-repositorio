@@ -1,7 +1,7 @@
 ###################################################
 #Criando usuários, grupos, diretorios e permissoes#
-#chmod +x arquivo.sh                              #
-#./arquivo.sh                                     #
+#		   chmod +x arquivo.sh                #
+#			./arquivo.sh                    #
 ###################################################
 echo "Criando diretorios..."
 
